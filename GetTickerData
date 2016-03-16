@@ -1,0 +1,5 @@
+#/bin/sh
+
+# takes one parameter, ticker, writes data to a file called $1_price_data 
+
+curl "http://real-chart.finance.yahoo.com/table.csv?s=$1&d=2&e=29&f=2016&g=d&a=0&b=2&c=1962&ignore=.csv" > $1_price_data
