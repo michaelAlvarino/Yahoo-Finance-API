@@ -3,4 +3,4 @@
 
 ##Takes one parameter, the ticker
 
-##Generates a file \<tik\>
+##Generates a file \<tik\>\_price\_data
